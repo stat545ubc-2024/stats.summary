@@ -1,0 +1,16 @@
+Package: stats.summary
+Title: Calculation of grouped summary statistics 
+Version: 0.1.0
+Authors@R: 
+    person("Deniz", "Coskuner", email = "d.coskuner@oceans.ubc.ca", role = c("aut", "cre"))
+Description: The goal of stats.summary is calculate the mean, range, standard deviation, and coefficient of variation for specific numeric data columns. Calculations are grouped by at least one column (but could be grouped by more than one column).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
